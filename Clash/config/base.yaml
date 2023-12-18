@@ -40,13 +40,13 @@ rule-providers:
     behavior: domain
     url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Bilibili.list"
     path: ./ruleset/Bilibili.yaml
-	
+
   Dcard:
     type: http
     behavior: domain
     url: "https://raw.githubusercontent.com/for769/ACL4SSR/master/Clash/Dcard.list"
     path: ./ruleset/Dcard.yaml
-	
+
   DIRECT:
     type: http
     behavior: domain
