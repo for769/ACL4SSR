@@ -1,132 +1,154 @@
 rule-providers:
   GoogleCNProxyIP:
     type: http
-    behavior: classical
+    behavior: classicalformat: yaml
+	format: yaml
     url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/GoogleCNProxyIP.list"
     path: ./ruleset/GoogleCNProxyIP.yaml
 
   Telegram:
     type: http
     behavior: classical
+	format: yaml
     url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Telegram.list"
     path: ./ruleset/Telegram.yaml
 
   OpenAi:
     type: http
     behavior: classical
+	format: yaml
     url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/OpenAi.list"
     path: ./ruleset/OpenAi.yaml
 
   YouTube:
     type: http
     behavior: classical
+	format: yaml
     url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/YouTube.list"
     path: ./ruleset/YouTube.yaml
 
   Apple:
     type: http
     behavior: classical
+	format: yaml
     url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Apple.list"
     path: ./ruleset/Apple.yaml
 
   BilibiliHMT:
     type: http
     behavior: classical
+	format: yaml
     url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/BilibiliHMT.list"
     path: ./ruleset/BilibiliHMT.yaml
 
   Bilibili:
     type: http
     behavior: classical
+	format: yaml
     url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Bilibili.list"
     path: ./ruleset/Bilibili.yaml
 
   Dcard:
     type: http
     behavior: classical
+	format: yaml
     url: "https://raw.githubusercontent.com/for769/ACL4SSR/master/Clash/Dcard.list"
     path: ./ruleset/Dcard.yaml
 
   DIRECT:
     type: http
     behavior: classical
+	format: yaml
     url: "https://raw.githubusercontent.com/for769/ACL4SSR/master/Clash/erji.list"
     path: ./ruleset/erji.yaml
 
   DIRECT:
     type: http
     behavior: classical
+	format: yaml
     url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/ABC/ABC.list"
     path: ./ruleset/ABC.yaml
 
   DIRECT:
     type: http
     behavior: classical
+	format: yaml
     url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/BOC/BOC.list"
     path: ./ruleset/BOC.yaml
 
   DIRECT:
     type: http
     behavior: classical
+	format: yaml
     url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/CCB/CCB.list"
     path: ./ruleset/CCB.yaml
 
   DIRECT:
     type: http
     behavior: classical
+	format: yaml
     url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/CMB/CMB.list"
     path: ./ruleset/CMB.yaml
 
   DIRECT:
     type: http
     behavior: classical
+	format: yaml
     url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/ICBC/ICBC.list"
     path: ./ruleset/ICBC.yaml
 
   DIRECT:
     type: http
     behavior: classical
+	format: yaml
     url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/LocalAreaNetwork.list"
     path: ./ruleset/LocalAreaNetwork.yaml
 
   DIRECT:
     type: http
     behavior: classical
+	format: yaml
     url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/UnBan.list"
     path: ./ruleset/UnBan.yaml
 
   DIRECT:
     type: http
     behavior: classical
+	format: yaml
     url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaDomain.list"
     path: ./ruleset/ChinaDomain.yaml
 
   DIRECT:
     type: http
     behavior: classical
+	format: yaml
     url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaMedia.list"
     path: ./ruleset/ChinaMedia.yaml
 
   REJECT:
     type: http
     behavior: classical
+	format: yaml
     url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanAD.list"
     path: ./ruleset/BanAD.yaml
 
   REJECT:
     type: http
     behavior: classical
+	format: yaml
     url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanProgramAD.list"
     path: ./ruleset/BanProgramAD.yaml
 
   DIRECT:
     type: http
     behavior: classical
+	format: yaml
     url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaCompanyIp.list"
     path: ./ruleset/ChinaCompanyIp.yaml
 
   DIRECT:
     type: http
     behavior: classical
+	format: yaml
     url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaIp.list"
     path: ./ruleset/ChinaIp.yaml
