@@ -1,7 +1,7 @@
 rule-providers:
   GoogleCNProxyIP:
     type: http
-    behavior: classical
+	behavior: classical
     url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/GoogleCNProxyIP.list"
     path: ./ruleset/GoogleCNProxyIP.yaml
 
