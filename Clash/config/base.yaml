@@ -89,7 +89,7 @@ rule-providers:
     url: "https://cdn.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Providers/UnBan.yaml"
     path: ./ACL4SSR/UnBan.yaml
     interval: 86400
-
+    
   GoogleCNProxyIP:
     type: http
     behavior: classical
