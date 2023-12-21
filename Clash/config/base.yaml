@@ -139,9 +139,9 @@ rule-providers:
     path: ./blackmatrix7/ICBC.yaml
     interval: 86400
 
-  Direct:
+  direct:
     type: http
     behavior: domain
     url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/direct.txt"
-    path: ./ruleset/Direct.yaml
+    path: ./ruleset/direct.yaml
     interval: 86400
